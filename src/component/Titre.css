@@ -1,0 +1,31 @@
+.titre-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .disclaimer {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .advantages {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .advantage {
+    margin-bottom: 20px;
+  }
+  
+  .advantage i {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  

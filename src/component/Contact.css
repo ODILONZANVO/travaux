@@ -1,0 +1,52 @@
+/* Contact.css */
+.contact-container {
+    background-image: url('https://www.labanquepostale.fr/content/dam/lbp/images/banner/banner-assurance-maison-habitation.jpg-rend-cq5dam.web.1080.1080.jpg/assets/banque.jpg'); /* Assurez-vous que le chemin d'accès est correct */
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form select {
+    appearance: none;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  

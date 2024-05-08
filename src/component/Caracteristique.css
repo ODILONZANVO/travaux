@@ -1,0 +1,38 @@
+.caracteristique-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    margin-bottom: 20px;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .detail p {
+    margin-bottom: 10px;
+  }
+  
+  .detail img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .example {
+    margin-bottom: 20px;
+  }
+  
+  .disclaimer {
+    font-style: italic;
+  }
+  
